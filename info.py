@@ -25,22 +25,22 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '1368186248'))
+API_HASH = environ.get('API_HASH', '0330b48d184881a162caae95c4999b7e')
 OWNER_ID = environ.get('OWNER_ID', '6497757690')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6538925130:AAEY1b-6RKcdk1XlY13jJqFtxO0VkTMRxwQ")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/2518d4eb8c88f8f669f4c.jpg https://graph.org/file/d6d9d9b8d2dc779c49572.jpg https://graph.org/file/4b04eaad1e75e13e6dc08.jpg https://graph.org/file/05066f124a4ac500f8d91.jpg https://graph.org/file/2c64ed483c8fcf2bab7dd.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/549fd9f3272214acade82.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/6988f560cf6d67339f628.jpg")
+PICS = (environ.get('PICS', 'http://ibb.co/09T6TcY http://ibb.co/Rc1f6wt http://ibb.co/NThfpSB http://ibb.co/sQ4t7cs http://ibb.co/HNP8c9W http://ibb.co/7SNLK12 http://ibb.co/dB35Swv http://ibb.co/gdvpJmk http://ibb.co/HHfWnrp')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "http://ibb.co/wpzXhMX")
+MELCOW_VID = environ.get("MELCOW_VID", "http://ibb.co/5nC0yKt")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/549fd9f3272214acade82.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/347c1f79f36d3cf14e0f5.jpg'))
-CODE = (environ.get('CODE', 'https://graph.org/file/02e7ecc3e2693b481b914.jpg'))
-REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1c1a3cb814cd719ae3bd3.jpg https://graph.org/file/1a2e64aee3d4d10edd930.jpg")).split()
+CODE = (environ.get('CODE', 'http://ibb.co/M52G5nm'))
+REFER_PICS = (environ.get("REFER_PICS", "http://ibb.co/09T6TcY http://ibb.co/Rc1f6wt http://ibb.co/NThfpSB http://ibb.co/sQ4t7cs http://ibb.co/HNP8c9W http://ibb.co/7SNLK12 http://ibb.co/dB35Swv http://ibb.co/gdvpJmk http://ibb.co/HHfWnrp")).split()
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'shareus.io'))
@@ -51,7 +51,7 @@ STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_to_Download_7x/32'))
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 PREFIX = environ.get("PREFIX", "/")
 
-CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1001953724858"))
+CHAT_GROUP = int(environ.get("CHAT_GROUP", ""))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6497757690 5115691197').split()]
