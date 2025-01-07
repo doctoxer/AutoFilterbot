@@ -1,5 +1,5 @@
 {
-    "name": "AutoFilter-Lucy",
+    "name": "AutoFilterBot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Codeflix-Bots/AutoFilter",
-    "repository": "https://github.com/Codeflix-Bots/AutoFilter",
+    "website": "https://github.com/doctoxer/AutoFilterBot",
+    "repository": "https://github.com/doctoxer/AutoFilterBot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
