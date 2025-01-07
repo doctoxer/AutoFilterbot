@@ -1,11 +1,11 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <h2 align="center">
-    ──「 ʟᴜᴄʏ ✘ ʀᴏʙᴏᴛ 」──
+    ──「 ᴀᴀᴍɪʏᴀ ❣︎ ᴇʟɪᴢᴀʙᴇᴛʜ 」──
 </h2>
 
 <p align="center">
-  <img src="https://graph.org/file/a7122b6c65dad02b7008f.jpg">
+  <img src="https://i.imghippo.com/files/AYYP1593Zg.jpg">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟᴜᴄʏ ʀᴏʙᴏᴛ](https://t.me/lucy_filter_bot)**_
