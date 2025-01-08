@@ -1285,7 +1285,7 @@ async def ginfo(bot, message):
 async def donate_command(client, message):
     buttons = [
         [
-            InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ • ", url=https://t.me/AamiyaElizabeth/48"),
+            InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ • ", url="https://t.me/AamiyaElizabeth/48"),
             InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/TeamMoviePalace")
         ]
     ]
