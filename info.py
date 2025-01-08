@@ -27,7 +27,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
-OWNER_ID = environ.get('OWNER_ID', '6497757690 7885627799')
+OWNER_ID = environ.get('OWNER_ID', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -89,7 +89,7 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜ ʜᴀᴠ�
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Referal Settings
-REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '10')) # number of referal count
+REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '0')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1 week')
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'LegPieceOff') # owner username without @
 
@@ -103,7 +103,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/PrashanthanCare_Bot') # H
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
 SHORTLINK_API = environ.get('SHORTLINK_API', '1Jh0re6olVUHnr3eEyFG7NZX7RF3')
-IS_SHORTLINK = bool((environ.get('IS_SHORTLINK', "False")), False)
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
@@ -116,7 +116,7 @@ S_CHANNEL = environ.get('S_CHANNEL', "TeamMoviePalace")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MoviePalace_Off ')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AamiyaElizabeth')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/PrashanthanCare_Bot ') # Tutorial video link for opening shortlink website 
-IS_TUTORIAL = bool((environ.get('IS_TUTORIAL', "False")), False)
+IS_TUTORIAL = bool((environ.get('IS_TUTORIAL', False))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ᴀᴀᴍɪʏᴀ ᴇʟɪᴢᴀʙᴇᴛʜ')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/MoviePalace_Off') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
