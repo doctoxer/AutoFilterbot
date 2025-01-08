@@ -103,7 +103,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/PrashanthanCare_Bot') # H
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
 SHORTLINK_API = environ.get('SHORTLINK_API', '1Jh0re6olVUHnr3eEyFG7NZX7RF3')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool((environ.get('IS_SHORTLINK', "False")), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
@@ -116,7 +116,7 @@ S_CHANNEL = environ.get('S_CHANNEL', "TeamMoviePalace")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MoviePalace_Off ')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AamiyaElizabeth')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/PrashanthanCare_Bot ') # Tutorial video link for opening shortlink website 
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
+IS_TUTORIAL = bool((environ.get('IS_TUTORIAL', "False")), False)
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ᴀᴀᴍɪʏᴀ ᴇʟɪᴢᴀʙᴇᴛʜ')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/MoviePalace_Off') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
